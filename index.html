@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/Images/quotes.png">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Quotes Website</title>
+</head>
+<body>
+    <!-- <div id="quotes"></div>
+    <div id="author"></div>
+    <button id="newQuotes">New Quotes</button> -->
+    <!-- <button id="tweetMe">Tweet</button> -->
+
+    <div class="container">
+        <div class="inner" data-aos="zoom-in">
+            <div class="box">
+                <p class="number">
+                   <img src="./Images/twitterlogo.png" alt="tweetMe" title="TweetMe" id="tweetMe"> 
+                </p>
+
+                <div class="text">
+                    <i class="start-quote fas fa-quote-left logo"></i>
+                    <p id="quotes" class="quotes"></p>
+                    <p id="author" class="author"></p>
+                </div>
+
+                <label class="button">
+                    <p id="newQuotes">New Quotes</p>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- glass effect start here -->
+
+   
+
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js" ></script>
+</body>
+</html>
