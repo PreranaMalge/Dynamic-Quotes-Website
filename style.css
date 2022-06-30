@@ -86,6 +86,7 @@ body{
     box-shadow: 0 0 0 0.7rem rgba(0, 0, 0, 0.5);
 }
 .number{
+    z-index: 111111;
     font-family: var(--sans);
     position: absolute;
     margin: 0;

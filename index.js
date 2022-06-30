@@ -8,6 +8,7 @@ let realData="";
 let quotesData = "";
 
 const tweetNow=()=>{
+    console.log("triggered tweetnow")
     let tweetPost = `https://twitter.com/intent/tweet?text=${quotesData.text}  ${quotesData.author}`;
     window.open(tweetPost);
 }
